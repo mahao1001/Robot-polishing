@@ -1,0 +1,49 @@
+﻿# encoding: utf-8
+# Release 18.0
+SetScriptVersion(Version="18.0.351")
+template1 = GetTemplate(
+    TemplateName="Static Structural",
+    Solver="ANSYS")
+system1 = template1.CreateSystem()
+geometry1 = system1.GetContainer(ComponentName="Geometry")
+geometry1.Edit()
+geometry1.Exit()
+modelComponent1 = system1.GetComponent(Name="Model")
+modelComponent1.Refresh()
+model1 = system1.GetContainer(ComponentName="Model")
+model1.Edit()
+model1.Exit()
+geometry1.Edit()
+geometry1.Exit()
+modelComponent1.Refresh()
+model1.Edit()
+model1.Exit()
+geometry1.Edit()
+modelComponent1.Refresh()
+model1.Edit()
+model1.Exit()
+geometry1.Exit()
+model1.Edit()
+model1.Exit()
+favorites1 = EngData.LoadFavoriteItems()
+library1 = EngData.OpenLibrary(
+    Name="General Materials",
+    Source="General_Materials.xml")
+engineeringData1 = system1.GetContainer(ComponentName="Engineering Data")
+matl1 = engineeringData1.ImportMaterial(
+    Name="Aluminum Alloy",
+    Source="General_Materials.xml")
+library2 = EngData.OpenLibrary(
+    Name="General Non-linear Materials",
+    Source="General Materials Non-linear.xml")
+library3 = EngData.OpenLibrary(
+    Name="Fluid Materials",
+    Source="Fluid_Materials.xml")
+library4 = EngData.OpenLibrary(
+    Name="Geomechanical Materials",
+    Source="GeoMechanical_Materials.xml")
+modelComponent1.Refresh()
+model1.Edit()
+Save(Overwrite=True)
+model1.Exit()
+Save(Overwrite=True)
