@@ -33,6 +33,6 @@ Ufactory studio
 Any other dependencies specified in the respective folders
 Usage Each directory contains detailed instructions and scripts for running the respective components of the project. Refer to the README files within each folder for specific usage guidelines.
 
-# Contact For any questions or inquiries, please contact [mahao1001@outlook.com].
+Contact For any questions or inquiries, please contact [mahao1001@outlook.com].
 
 Thank you for exploring our project! We hope this repository provides valuable insights into the development and implementation of adaptive control strategies for robotic manipulators.
