@@ -1,5 +1,5 @@
 # Robot-polishing
-Adaptive Force-Position-Speed Collaborative Process Planning and Roughness Prediction for Robotic Polishing
+# Adaptive Force-Position-Speed Collaborative Process Planning and Roughness Prediction for Robotic Polishing
 
 This study proposes an adaptive robotic polishing force-position-speed collaborative process planning framework. The improved dung beetle optimization algorithm, back propagation neural network, finite element analysis and response surface method provide a strong guarantee for the selection of robotic polishing process parameters. The adaptive impedance control strategy is implemented to enhance force control, and PD iteration and RBF neural network are used to ensure stable contact force and accuracy.
 
@@ -23,3 +23,16 @@ This section includes the source code and results of BPNN model and response sur
 
 6.	Robot polishing experiments
 This section presents the scenario of the robotic polishing experiment and the obtained results.
+
+Prerequisites Ensure that you have the necessary software and libraries installed to run the code:
+Matlab 2023b/Simulink
+Python
+Ansys
+Solidworks
+Ufactory studio
+Any other dependencies specified in the respective folders
+Usage Each directory contains detailed instructions and scripts for running the respective components of the project. Refer to the README files within each folder for specific usage guidelines.
+
+# Contact For any questions or inquiries, please contact [mahao1001@outlook.com].
+
+Thank you for exploring our project! We hope this repository provides valuable insights into the development and implementation of adaptive control strategies for robotic manipulators.
