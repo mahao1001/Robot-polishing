@@ -1,5 +1,5 @@
 # Robot-polishing
-# Adaptive Force-Position-Speed Collaborative Process Planning and Roughness Prediction for Robotic Polishing
+Adaptive Force-Position-Speed Collaborative Process Planning and Roughness Prediction for Robotic Polishing
 
 This study proposes an adaptive robotic polishing force-position-speed collaborative process planning framework. The improved dung beetle optimization algorithm, back propagation neural network, finite element analysis and response surface method provide a strong guarantee for the selection of robotic polishing process parameters. The adaptive impedance control strategy is implemented to enhance force control, and PD iteration and RBF neural network are used to ensure stable contact force and accuracy.
 
